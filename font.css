@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+body {
+    background-color: #3D85C6;
+    color: rgba(0,0,0,.8);
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font {
+    font-family: 'Black Han Sans', arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic; 
+    /*------   font: italic bold 40px 'Black Han Sans', arial, sans-serif;   --------  (the same as the rop font) */
+}
+/* https:google.com/fonts */

@@ -1,0 +1,108 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    color: rgb(233, 221, 221);
+    background-image: url("hii.webp");
+    background-size: cover;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0px 0px 4px rgb(61, 173, 224);
+}   
+#main-logo {
+    width: 100px;
+    
+}
+
+
+.btn {
+    margin: 20 10 0 0  ;
+    padding: 10px 30px;
+    background: rgb(223, 193, 193);
+    border: 1;
+    font-family: 'Orbitron', sans-serif;
+    color: #82a5ca;
+    font-weight: bold;
+}
+
+
+.avatar {
+    width: 150px;
+    border-radius: 1%;
+    border: .2px solid rgb(78, 38, 131);
+}
+.shadow >h3,p,h4 {
+
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px -2px  2px rgb(124, 156, 132);
+    background: #abbace;
+    
+          
+    
+}
+
+
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: linear-gradient(lightskyblue, white);
+    color: #412e96;
+    border-bottom: 6px solid #50496e;
+    border-radius: 1%;
+    
+        
+   
+}
+
+.border-blue {
+    border: 1px dotted rgb(47, 47, 153);
+}
+.ad  {
+    padding: 10 10 10 10;
+    margin-top:20;
+    border: 1px solid #dae0ce;
+    text-align: center;
+    border-radius: 20px;
+    color: #e5d2e9f6;
+}
+
+.cta {
+    border: 1px solid #dfbfda;
+    padding: 1px 4px;
+    color: rgb(205, 157, 219);
+    
+    
+}
+.underline {
+    border-bottom: 2px solid rgb(184, 217, 233);
+    color: #43b9c2;
+   
+}
+
+a {
+   text-decoration: none;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+

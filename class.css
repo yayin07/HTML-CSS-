@@ -1,0 +1,19 @@
+.box {
+    border: 2px solid;
+    background-color: rgb(120, 216, 149);
+}
+section >h3 , .box  {
+    background-color: rgb(218, 192, 192);
+}
+#classes {
+    color: rgb(205, 165, 90);
+}
+#ids {
+    color: rgb(110, 119, 170);
+}
+#ids > P > b, #ids li > b {
+    color: goldenrod;
+}
+section  > #ids >div , h3 {
+    color:rgb(143, 218, 167);
+}

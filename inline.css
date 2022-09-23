@@ -1,0 +1,14 @@
+#inline * {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}s
+#block * {
+    width: 200px;
+    height: 200px;
+}
+
+/* More Info about Block vs Inline Elements */
+/* https://www.w3schools.com/html/html_blocks.asp */
+/* More Info about Width & Height */
+/* https://www.w3schools.com/css/css_dimension.asp */

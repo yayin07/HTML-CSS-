@@ -1,0 +1,26 @@
+html * {
+    /* box-sizing: border-box; */
+}
+html{
+    /* background-color: #3D85C6; */
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 1em;
+    margin: 0;
+}
+a, code, bold, italic {
+    padding: 0 5px;
+}
+
+header {
+    background-color: slateblue;
+    color: white;
+    text-align: center;
+}
+header h1  {
+    margin: 0;
+    line-height: 100px;
+}

@@ -1,0 +1,36 @@
+
+
+
+.parent {
+    background-color: rgba(0,0,0,.3);
+}
+
+ .box{
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 300px 12px 104px;
+
+   /*...... margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;  */
+
+    
+/* .....box-sizing: border-box; 
+    border-style: solid;
+    border-color: lightgreen;
+    border-width: 10px;  ....  */
+
+/*..... .....all_in............. */
+    border: solid 10px lightgreen;
+
+
+}
+.content {
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,10 @@
+body {
+    padding-bottom: 100px;
+}
+
+.first {
+    position:relative;
+    top: 30px;
+    width: 300;
+    margin-bottom: -40px;
+}

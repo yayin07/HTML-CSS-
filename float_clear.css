@@ -1,0 +1,37 @@
+html{
+    background-color: slateblue;
+    /* padding: 0; */
+}
+html body > h1 {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+body {
+    background-color: transparent;
+    margin: 0;
+}
+.box {
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 2em;
+    /* margin-bottom: 25px; */
+    
+}
+section {
+    background-color: white;
+    padding: 25px;
+}
+.tomato {
+    background-color: tomato;
+}
+.purple {
+    background-color: purple;
+}
+.gold {
+    background-color: gold;
+}
+.green {
+    background-color: lightseagreen;
+}

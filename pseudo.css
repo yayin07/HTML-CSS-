@@ -1,0 +1,18 @@
+ul li a:hover {
+    color: tomato;
+    font-size: 2em;
+}
+
+
+ul a:hover::before {
+    content: "⇨  ";
+    color: red;
+    margin-right: 20px;
+}
+
+/*  -----Combination----
+ul a:hover::before {
+    content: "⇨  ";
+    color: red;
+    margin-right: 20px;
+}  */

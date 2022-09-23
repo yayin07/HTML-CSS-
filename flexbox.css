@@ -1,0 +1,48 @@
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.item1 {
+    text-align: center;
+    border: 1px solid black;
+    padding: 9px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:15px;
+    margin-right: 50px;
+    
+
+}
+.container {
+    border: 1px solid #016a26;
+    height: 360px;
+    /*
+    Challenge:
+    Follow my orders on where we should
+    leave up our lab equipment!
+    
+    justify-content:
+    start, center, end, space-around, 
+    space-evenly, space-between
+    
+    align-items:
+    start, center, end
+    */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    
+}
+
+
+.item2 {
+    width: 50px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+    background: linear-gradient(#14463d, #016a26);
+}
+

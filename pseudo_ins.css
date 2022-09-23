@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: slateblue;
+    color: whitesmoke;
+    text-align: center;
+}
+header h1  {
+    margin: 0;
+    line-height: 100px;
+}
+ul li {
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+}

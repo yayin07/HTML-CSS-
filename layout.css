@@ -1,0 +1,42 @@
+/* 
+    CHALLENGE
+    — Apply a percent width to CONTENT ID of 75 percent and set the NAVIGATION ID to a width 25 percent 
+    - Apply a height of 400 pixels to the CONTENT & NAVIGATION IDs
+    — Apply a pixel height to the HEADER and FOOTER ID of 50 pixels
+    — Apply the proper float values to the content and navigation IDs so that the element with the ID of CONTENT is on the left, and the element with the ID of NAVIGATIO is on the right.
+    — Apply a clear property that clears all floated elements to the FOOTER ID. 
+*/
+
+#header {
+	background: #44accf;
+    /* float: right; */ 
+    height: 50px;
+    /* width: 100% */
+    
+}
+#content {
+	
+    
+    background: #e2a741;
+    /* clear: right; */
+    float: right;
+    height: 400px;
+    width: 20%;
+}
+#navigation {
+	background: #b7d84b;
+    /* clear: left; */
+    float: left;
+    height: 400px;
+    width: 80%;
+   
+    
+   
+}
+#footer {
+	background: #ee3e64;
+   /* float: right; */
+    height: 50px;
+    clear: right;
+    /* width: 100%; */
+}

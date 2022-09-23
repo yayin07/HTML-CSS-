@@ -1,0 +1,13 @@
+.inline {
+    background-color: slateblue;
+    color: white;
+    padding: 2px 5px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.block {
+    border: 2px solid tomato;
+    padding: 5px;
+}

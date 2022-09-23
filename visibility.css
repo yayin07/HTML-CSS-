@@ -1,0 +1,8 @@
+.box {
+    margin: 20px;
+}
+.hidden {
+    /* display: none; */
+    /* visibility: hidden; */
+     opacity: .5; 
+}

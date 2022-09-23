@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="work.css">
+    </head>
+    <body id="home" class="open-left">
+        <div id="offcanvas-left" class="hide">
+            <ul>
+                <li><a href="#" >Item 1 </a></li>
+                <li><a href="#" >Item 1 </a></li>
+                <li><a href="#" >Item 1 </a></li>
+            </ul>
+        </div>
+        <div class="togglebar">
+            <!-- adds the class of hide to .offcanvas.left -->
+            <div class="toggle" onclick="toggleLeft()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div class="center">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#" >Item 1 </a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section>
+                <main >
+                    <article>
+                    
+                        <table class="styled">
+                            
+                            <colgroup>
+                                <col style="background-color: #f4e767;" span="5">
+                            </colgroup>
+                            <colgroup>
+                                <col style="background-color: blueviolet; "span="5">
+                            </colgroup>
+                            
+                            <thead>
+                                <tr>
+                                    <th colspan="6">Work Hours</th>
+                                   
+                                </tr>
+                            </thead>
+                         <tbody>
+                                <tr>
+                                    <td>MONDAY</td>
+                                    <td>TUESDAY</td>
+                                    <td>WEDNESDY</td>
+                                    <td>THURSDAY</td>
+                                    <td>FRIDAY</td>
+                                    <td>7AM-6PM</td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td rowspan="6">SATURDAY</td>
+                                    <td>SUNDAY</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>CLOSED</td>
+                                </tr>
+                           </tbody>
+                        </table>
+                    </article>
+                </main>
+                <footer>
+                    <!-- table challenge -->
+                    <!-- section element -->
+                        <!-- table element class of "styled" -->
+                            <!-- 1st row, th, colspan 2: Work Hours -->
+                            <!-- 2nd row: td, mon-fri, 7am-6pm -->
+                            <!-- 3rd row: td, sat-sun, closed -->
+                </footer>
+            </section>          
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
+
+<!-- Bonus Materials -->  
+<!-- Learn html vocab: http://apps.workflower.fi/vocabs/html/en -->
+<!-- More info about tables: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table -->
